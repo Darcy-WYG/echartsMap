@@ -1,0 +1,60 @@
+.qv-object-qlik-extension-demo div.qv-object-content-container {
+	overflow: auto;
+}
+.qv-object-qlik-extension-demo td;
+.qv-object-qlik-extension-demo th {
+	border-top: 0px solid #fff;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	vertical-align: middle;
+	cursor: default;
+	font-size: 12px;
+}
+.qv-object-qlik-extension-demo td.numeric {
+	text-align: right;
+}
+.qv-object-qlik-extension-demo button {
+	width: 100%;
+}
+
+/* 地图默认度量 */
+#echartsMapInfo {
+	display: none;
+}
+
+.echartsMapInfo-show {
+	display: block !important;
+	height: 100%;
+	width: 100%;
+	background: #c1c1c16e;
+	position: absolute;
+	font-size: 40px;
+	color: black;
+	top: 0px;
+	padding-top: 20%;
+	text-align: center
+}
+
+.map-nav-tree {
+	position: absolute;
+    top: 0;
+    z-index: 100;
+    left: 46%;
+    color: white;
+    cursor: pointer;
+    min-width: 500px;
+    font-size: 20px;
+}
+
+.map-nav-tree p,
+.map-nav-tree i {
+	float: left;
+}
+
+.map-nav-tree p:hover {
+	color: gold;
+}
+
